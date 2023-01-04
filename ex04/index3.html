@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 2</title>
+    <style>
+        
+        table {
+            border-collapse: collapse;
+            border-style: double;
+            margin: auto;
+            width: 400px;   
+              }
+
+        caption {
+            caption-side: top;
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 1px;        
+                } 
+
+        th,td {
+            border: 1px solid gray;
+            padding: px;
+            margin: 0 auto;
+           text-align: justify;        
+              }
+
+        td {
+            font-style: arial;             
+           }
+       
+        th {
+            width: 40% ;
+           }    
+
+           td.dado {
+           background-color: white;
+           font-style: italic;
+           margin-left: 50px;
+           
+        }
+
+        th.dado {
+            text-align: center;
+            border-style: solid;
+                        
+        }
+
+        td.dado {
+           text-align: justify;
+            border: white;
+            font-size: 12pt;
+
+
+            
+
+        }
+
+        td.dado {
+            border-collapse: collapse;         
+            border-width: 0px;
+            border-style: double;
+            text-align: center;
+            padding-top: 05px; 
+          
+          
+        }
+
+       th.dado {
+        border-style: solid;
+       }
+        
+        
+    </style>
+
+</head>
+<body>
+
+    <table>
+    
+</tr> <!-- tudo que estiver dentro da tag table se inicia com tr-->
+        <caption>
+            <b>Sudeste x Sul </b>           
+        </caption>
+
+        <thead> <!-- corpo da tabela-->
+<tr>
+    <th class="dado" colspan="2">Estados</th>
+    <th colspan="3">Cidades</th>
+    <!-- Tudo que for th é titulo-->
+            
+</tr>
+        </thead>
+                   
+            <tbody>
+
+            <td rowspan="13">Sudeste</td>
+
+            <tr>          
+                      
+            <td rowspan="3">São Paulo</td>
+            <td class="dado" colspan="3">
+                &#8226; São Paulo</td>
+            <!-- rowspan mescla na horizontal-->
+            <!--colspan mescla na vertical-->
+            
+            <tr>
+              
+              <td class="dado" colspan="3"> 
+                &#8226;  Guarulhos</td>
+              
+              <tr>
+                
+              <td class="dado" colspan="3">
+                &#8226;  Campinas</td>
+                                  
+            </tr>
+            <tr>               
+                <td rowspan="3">Rio de janeiro</td>
+                <td class="dado" colspan="3">1. Rio de janeiro</td>
+                
+            </tr>           
+                <td class="dado" colspan="3">2. São Gonçalo</td>
+                
+                <tr>
+                   
+                <td class="dado" colspan="3">
+                    3. Duque de caxias</td>
+                
+                </tr>
+
+            <tr>               
+                <td rowspan="3">Minas Gerais</td>
+                <td class="dado" colspan="3">&#9702;  Belo Horizonte</td>
+                
+            </tr>
+
+            <tr>              
+                <td class="dado" colspan="3">&#9702;  Uberlândia</td>
+            </tr>
+
+            <tr>                
+                <td class="dado" colspan="3">&#9702; Contagem</td>
+                              
+            </tr>
+            
+            <tr>               
+                <td rowspan="3">Espirito Santo</td>
+                <td class="dado" colspan="3">
+                    	I.  Vila Velha</td>
+            </tr>
+
+            <tr>                
+                <td class="dado" colspan="3">	
+                    II.  Serra</td>
+            </tr>
+
+            <tr>                
+                <td class="dado" colspan="3">
+                    III. Cariacica</td>
+            </tr>
+
+            <tr>
+                <td rowspan="10">Sul</td>
+            </tr>
+
+            <tr>             
+                <td rowspan="3">Rio Grande do Sul</td>
+                <td class="dado" colspan="3">a. Porto Alegre</td>
+                
+            </tr>                         
+                <td class="dado" colspan="3">b. Caxias</td>
+
+            <tr>                
+                <td class="dado" colspan="3">c. Pelotas</td>
+            </tr>
+
+            <tr>               
+                <td rowspan="3">Paraná</td>
+                <td class="dado" colspan="3">
+                    &#8226; Curitiba</td>
+
+            </tr>           
+                <td class="dado" colspan="3">
+                    &#8226; Londrina</td>
+
+            <tr>               
+                <td class="dado" colspan="3">
+                    &#8226; Maringá</td>
+
+            <tr>                               
+                <td rowspan="3">Santa Catarina</t>
+                <td class="dado" colspan="3">1.  Joinvile</td>
+            /tr>
+
+            <tr>                
+                <td class="dado" colspan="3">2.  Florianópolis</td>
+            </tr>
+
+            <tr>             
+                <td class="dado" colspan="3">3. Blumenal</td>
+            </tr>          
+                       
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
