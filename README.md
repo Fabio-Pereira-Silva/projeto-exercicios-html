@@ -12,32 +12,32 @@
 Exercício 1 Pedido: Criar uma tabela com as cidades mais populosas dos estados da Bahia, Pernambuco e São Paulo.
 
 
-![capa](ex01%20realizado.PNG)Exercício 1 Realizado!
+![EX01](imagens/ex01realizado.PNG)Exercício 1 Realizado!
 
-![capa](ex02%20pedido.PNG)Exercício 2 Pedido: Criar uma pagina web com o seguinte layout. 
-
-
-![capa](ex02%20realizado.PNG)Exercício 2 Realizado!
-
-![capa](ex03%20pedido.PNG)Exercício 3 Pedido: Criar uma pagina web com o seguinte layout, porém sem a barra de grade no campo cidades.
+![EX02](imagens/ex02pedido.PNG)Exercício 2 Pedido: Criar uma pagina web com o seguinte layout. 
 
 
-![capa](ex03%20realizado.PNG)Exercício 3 Realizado!
+![EX02](imagens/ex02realizado.PNG)Exercício 2 Realizado!
 
-![capa](ex04%20pedido.PNG)Exercício 4 Pedido: Criar uma pagina web com o seguinte layout, porém no campo cidade em lista não ordenadas.
-
-
-![capa](ex04%20realizado.PNG)Exercício 4 Realizado!
-
-![capa](ex05%20pedido.PNG)Exercício 5 Pedido: Criar uma pagina web com o seguinte layout. 
+![EX03](imagens/ex03pedido.PNG)Exercício 3 Pedido: Criar uma pagina web com o seguinte layout, porém sem a barra de grade no campo cidades.
 
 
-![capa](ex05%20realizado.PNG)Exercício 5 Realizado!
+![EX03](imagens/ex03realizado.PNG)Exercício 3 Realizado!
 
-![capa](ex06%20pedido.PNG)Exercício 6 Pedido: Criar uma pagina principal e 4 links que levam a 4 paginas com cardapio, dentro do cardapio contendo a receita do café. 
+![EX04](imagens/ex04pedido.PNG)Exercício 4 Pedido: Criar uma pagina web com o seguinte layout, porém no campo cidade em lista não ordenadas.
 
 
-![capa](ex06%20realizado.PNG)Exercício 6 Realizado!
+![EX04](imagens/ex04realizado.PNG)Exercício 4 Realizado!
+
+![EX05](imagens/ex05pedido.PNG)Exercício 5 Pedido: Criar uma pagina web com o seguinte layout. 
+
+
+![EX05](imagens/ex05realizado.PNG)Exercício 5 Realizado!
+
+![EX06](imagens/ex06pedido.PNG)Exercício 6 Pedido: Criar uma pagina principal e 4 links que levam a 4 paginas com cardapio, dentro do cardapio contendo a receita do café. 
+
+
+![EX06](imagens/ex06realizado.PNG)Exercício 6 Realizado!
 
 ## Tecnologias Ultilizadas
 1. HTML 5
