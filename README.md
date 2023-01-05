@@ -8,7 +8,8 @@
 
 ## Projeto / Exercícios
 
-![capa](ex01%20pedido.PNG)Exercício 1 Pedido: Criar uma tabela com as cidades mais populosas dos estados da Bahia, Pernambuco e São Paulo.
+![EX01](imagens/ex01pedido.PNG)
+Exercício 1 Pedido: Criar uma tabela com as cidades mais populosas dos estados da Bahia, Pernambuco e São Paulo.
 
 
 ![capa](ex01%20realizado.PNG)Exercício 1 Realizado!
