@@ -16,7 +16,6 @@
 
 Exercício 1 Realizado!
 
-
 ### Exercício 2 Pedido: Criar uma pagina web com o seguinte layout. 
 ![EX02](imagens/ex02pedido.PNG)
 
