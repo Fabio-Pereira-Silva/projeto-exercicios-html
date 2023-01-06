@@ -1,0 +1,32 @@
+.titulo-principal {
+    text-align: center;
+
+}
+
+.titulo-segundario {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    margin-left: 35px;
+    
+}
+
+.imagem {
+     
+    margin-left: calc(50vw - 150px);
+    margin-top: calc(50vh - 450px);
+    width: 230px;
+    height: 150px;
+     
+}
+
+.paragrafo-1 {
+    padding: 08px;
+
+}
+
+.link-1 {
+    padding: 450px;
+
+}
+
