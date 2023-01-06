@@ -3,7 +3,7 @@
 ## Índice
 - Projeto / Exercícios
 - Tecnologias ultilizadas
-- Autor do 
+- Autor do Projeto
  
 
 ## Projeto / Exercícios
