@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 03</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    
+     <form class="borda-1" action="/action_page.php" method="get">
+        
+
+        <fieldset class="cor-2">
+            <legend class="cor-1"><b>Cadastro Geral</b></legend>
+        </fieldset>
+    
+        <fieldset class="cor-2">
+            <legend class="cor-1"><b>Dados Pessoais</b></legend>
+            <div>
+                <label class="cor-1" for="">Nome Completo:</label>
+                <br>
+                <input type="text" name="nome" minlength="1" maxlength="">
+            </div>
+            <br>
+            <label class="cor-1" for="">Profissão:</label>
+            <img class="imagem-1" src="imagensex03/" alt="">
+
+            <br>
+
+           <select name="Profissão"required>
+            <option value="">selecione...</option>
+           <option value="Sua profissão">Sua profissão</option>
+           <option value="Medico">Medico</option>
+           <option value="Medico">Dentista</option>
+           <option value="Medico">Desenvolvedor Web</option>
+           <option value="Medico">Contador</option>
+           <option value="Medico">Mecanico</option>
+           <option value="Medico">Motorista</option>
+
+           </select>           
+    
+            </div>
+        </fieldset>
+    
+        <fieldset class="cor-2">
+            <legend class="cor-1"><b>Localização</b> </legend>
+            <div>
+                <label class="cor-1" for="">E-mail:</label>
+                <br>
+                <input type="text" name="E-mail" minlength="1" maxlength="30">
+            </div>
+            <br>
+            <label class="cor-1" for="">Rua:</label>
+            <br>
+            <input type="text" name="Rua" minlength="1" maxlength="30">
+            <div>
+    
+            </div>
+            <br>
+        </fieldset>
+        <br>
+    
+        <fieldset class="cor-2">
+            <legend class="cor-1"><b>Faixa etária</b>  </legend>
+            <div>
+            
+                <input type="radio" value="até 20 anos" name="Faixa etária">
+                <label class="cor-1" for="">até 20 anos</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="mais de 40 até 50 anos" name="Faixa etária">
+                <label class="cor-1" for="">mais de 40 até 50 anos</label>&nbsp;
+                
+            </div>
+        
+            <div>
+                <input type="radio" value="mais de 20 até 30 anos" name="Faixa etária">
+                <label class="cor-1" for="">mais de 20 até 30 anos</label>&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="mais de 50 até 60 anos" name="Faixa etária">
+                <label class="cor-1" for="">mais de 50 até 60 anos</label>
+        
+            </div>
+        
+            <div>
+                <input type="radio" value="mais de 30 até 40 anos" name="Faixa etária">
+                <label class="cor-1" for="">mais de 30 até 40 anos</label>&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="mais de 60 anos" name="Faixa etária">
+                <label class="cor-1" for="">mais de 60 anos</label>
+        
+        
+            </div>
+    
+        </fieldset>
+        <br>
+    
+        <fieldset class="cor-2">
+            <legend class="cor-1"><b>Esportes que prática</b> </legend>
+            <div>
+                <input type="checkbox" name="Esportes que prática" value="Futebol de campo">
+                <label class="cor-1" for="">Futebol de campo</label><br>
+                <input type="checkbox"name="Esportes que prática" value="Futebol de salão">
+                <label class="cor-1" for="">Futebol de salão</label><br>
+                <input type="checkbox"name="Esportes que prática" value="Futebol society">
+                <label class="cor-1" for="">Futebol society</label><br>
+                <input type="checkbox"name="Esportes que prática" value="Volley de quadra">
+                <label class="cor-1" for="">Volley de quadra</label><br>
+                <input type="checkbox"name="Esportes que prática" value="Futebol de praia">
+                <label class="cor-1" for="">Futebol de praia</label><br>
+                <input type="checkbox"name="Esportes que prática" value="Natação em piscina">
+                <label class="cor-1" for="">Natação em piscina</label><br>
+                <input type="checkbox"name="Esportes que prática" value="natação em mar aberto">
+                <label class="cor-1" for="">Natação em mar aberto</label><br>
+                
+            </div>
+            <br>
+    
+            <fieldset class="cor-2">
+                <legend class="cor-1"><b>Comentário</b> </legend>
+            </fieldset>
+           
+    
+            <div>
+                <label class="cor-1" for="">Mensagem:</label>
+                
+            </div>
+    
+            <div>
+                <textarea name="Descrição" id="Descrição" cols="30" rows="06" required></textarea>
+            </div>
+    
+        </fieldset>
+        <br>
+        
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </div>
+        <hr>
+        </form>  
+      
+        
+</body>
+</html>

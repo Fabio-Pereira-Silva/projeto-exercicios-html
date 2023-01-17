@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+#h4 {
+    background-color: rgb(208, 168, 140);
+  
+}
+
+
+.box-1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -55;
+    padding: 2PX;
+}
+
+.nome-1 {
+    display: inline-block;
+    width: 120PX; 
+
+}
+
+.nome-2 {
+  line-height: 15px;
+
+}
+
+.alin-1 {
+    display: inline-block;
+    width: 15PX;   
+
+}
+
+.botão-1 {
+   margin-top: 25px;
+}

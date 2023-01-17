@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 02</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div>
+        <h4 id="h4" class="box-1"><B>Sistema de Gestão Acadêmica</B></h4>
+        <h5 class="box-1"><b>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</b></h5>
+    </div>
+
+   <form action="/action_page.php" method="get">
+    <div class="box-1">
+        <label class="nome-1" for="Login"><b>Login</b></label>
+        <input class="nome-2" type="text" name="Login" minlength="1" maxlength="12" >
+    </div>
+
+    <div class="box-1">
+        <label class="nome-1" for="Senha"><b>Senha</b></label>
+        <input class="nome-2" type="text" name="Senha" minlength="1" maxlength="12">   
+
+    </div>
+    
+      <div>
+
+      </div>
+
+      <div class="box-1">
+        <label class="nome-1" for="Status"><b> Status</b></label>
+        <select class="nome-2" name="Status" id="Status" required>Inativo
+            <option value="">Selecione...</option>
+            <option value="Inativo">Inativo</option>
+            <option value="Ativo">Ativo</option>
+        </select>        
+      </div>
+
+      <div class="box-1">
+       
+       <label class="nome-1" for=""><b> Tipo</b></label>
+       <input class="nome-2" type="radio" name="Técnico"  id="Técnico"><b>Técnico</b> 
+       <input class="nome-2" type="radio" name="Professsor"   id="Professsor"><b>Professsor</b> 
+       <input class="nome-2" type="radio" name="Aluno"><b>Aluno</b>         
+        
+      </div>
+
+      <div class="box-1">
+        <label class="nome-1" for=""><b> Data Criação</b></label>
+        <input class="nome-2" type="text">
+
+      </div>
+
+      <div class="box-1">
+        <label class="nome-1" for=""><b>Perfil</b></label>
+       <input class="nome-2" type="radio" value="Perfil" name="Perfil"  id="Convidado"><b>Convidado</b> 
+       <input class="nome-2" type="radio" value="Perfil" name="Administrador"  id="Administrador"><b>Administrador</b> 
+
+      </div>
+
+      <div class="box-1">
+    <label class="nome-1" for=""><b>Observações</b> </label>
+    <textarea class="nome-2" name="Observações" id="Descrição" cols="40" rows="05"></textarea>
+
+      </div>
+
+      <div class="box-1">
+        <br>
+        <label class="nome-1" for=""><b>Módulos</b></label>
+   
+        <input type="checkbox" name="Módulos" value="Compras" id="Compras" ><b>Compras</b> 
+        <input type="checkbox" name="Módulos" value="Biblioteca" id="Biblioteca" ><b>Biblioteca</b> 
+        <input type="checkbox" value="Acadêmico" name="Módulos" id="Acadêmico" ><b>Acadêmico</b>  <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="alin-1" type="checkbox" value="Documentação" name="Módulos" id="Documentação" ><b>Documentação</b> 
+        <input class="alin-1" type="checkbox" value="Recursos Humanos" name="Módulos" id="Recursos Humanos" ><b>Recursos Humanos</b> 
+
+      
+
+      </div>
+
+      <div class="box-1">
+        <input class="botão-1" type="submit" value="Cadastrar" class="btn-submit">
+        <input class="botão-1" type="submit" value="Excluir" class="btn-submit">
+      </div>
+
+
+    
+   </form>
+
+    
+
+    
+</body>
+</html>
