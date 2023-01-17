@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+       
+}
+
+.borda {
+    border-radius: 1px;
+    padding: 20px;
+    width: 679px;
+    margin: 20px auto 0 auto;
+}
+
+.box-1 {
+    margin-left: 06%;
+    margin-top: 2%;
+    justify-content: center;
+  
+  
+}
+
+#cor-1 {
+    background-color: rgb(134, 162, 184);
+    
+   
+}
+
+.azul {
+    padding-right: 16em;
+
+}
+
+#cor-2 {
+background-color: rgb(10, 18, 176);
+}
+
+.caixa-1 {
+padding-right: 7em;
+
+}
+
+.Nome {
+    padding-right: 26em;
+}
+
+.nome-completo {
+    padding-right: 26em;
+    margin-top: -1px;
+}
+
+.CPF {
+    padding-right: 26em;
+    margin-top: -1px;
+}
+
+.E-mail {
+    padding-right: 26em;
+
+}
+
+.web-Site {
+    padding-right: 26em; 
+    margin-top: -1px;
+}
+
+.Endereço {
+    padding-right: 26em; 
+    margin-top: -1px;
+}
+
+.cidade {
+    padding-right: 09em;
+    margin-top: -1px;
+}
+
+.fax {
+    padding-right: 10em;
+    margin-top: -1px;
+}
+
+.senha {
+    padding-right: 09em;
+    margin-top: -1px;
+}
+
+
+
