@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 01</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2 class="box-1">Deixe um Comentário</h2>
+
+    <form action="/action_page.php" method="get" >
+
+        <div class="box-1">
+            <label for="Nome" class="titulo-1">Nome: <br></label>
+        <input class="largura-box" type="text" name="Nome"  minlength="1" maxlength="30" required>  
+        
+        </div>
+        
+        <div class="box-1">
+            <label for="Email" class="titulo-1">Email:<br></label>
+            
+        <input class="largura-box" type="text" name="Email"  minlength="1" maxlength="30" required>  
+        </div>
+
+        <div class="box-1">
+            <label for="Website" class="titulo-1">Website: <br></label>
+            <input class="largura-box" type="text" name="Website" minlength="1" maxlength="30" required>  
+        </div>
+
+        <div class="box-1">
+            <label for="Comentario" class="titulo-1">Comentário:</label>
+            <br>
+                <textarea name="description" cols="52" rows="10"></textarea>
+            </div>   
+            
+            <div class="box-1">
+                <p class="paragrafo">Observação:Seu comentário será publicado após passar pelo moderador</p>
+
+        <input type="submit" class="botão-enviar"  value="Enviar Comentario">
+            </div>
+        
+    </form>
+</body>
+</html>

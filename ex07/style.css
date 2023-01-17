@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.box-1 {
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -62;
+   
+   
+    
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.largura-box {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.paragrafo {
+  font-size: 14px;
+
+
+}
